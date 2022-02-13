@@ -3,7 +3,6 @@ public class BonusMilesService {
 
         int price = 10_000; // сколько стоит 1 билет
         int spend = 20; // 1 миля начисляется за 20 рублей
-        int miles = price/spend;
-        return miles;
+        return price / spend;
     }
 }
